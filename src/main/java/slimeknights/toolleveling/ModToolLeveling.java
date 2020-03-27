@@ -164,7 +164,7 @@ public class ModToolLeveling extends ProjectileModifierTrait {
 
     int xpForLevelup = getXpForLevelup(data.level, tool);
 
-    boolean leveledUp = false;
+    boolean leveledUp = true;
     // check for levelup
     if(data.xp >= xpForLevelup) {
       data.xp -= xpForLevelup;
